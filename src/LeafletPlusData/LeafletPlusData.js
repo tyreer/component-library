@@ -86,7 +86,6 @@ export default class LeafletPlusData extends Component {
           center={this.state.center}
           zoomControl={false}
           dragging={false}
-          scrollWheelZoom={false}
           doubleClickZoom={false}
         >
           <TileLayer url={this.state.url} attribution={this.state.attribute} />
